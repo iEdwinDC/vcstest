@@ -9,7 +9,10 @@
 
 
 //Divide
+function dive(a,b){
+  showResult('el valor de la divicion entre '+a+'/'+b+' es',a/b);
 
+}
 // abs
 function absoluto(a) { 
     showResult('el valor absoluto de  ('+a+')' +'es',Math.abs(a));
