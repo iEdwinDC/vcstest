@@ -1,19 +1,27 @@
 
 //Add
-
+function add(a,b) { 
+  showResult('la suma entre '+a+' y '+b+' es ',a+b);
+}
 
 //Multiply
-
+function multiply(a,b) { 
+  showResult('la multiplicacion entre '+a+' y '+b+' es ',a*b);
+}
 
 //Substract
-
+function substract(a,b) { 
+  showResult('la resta entre '+a+' y '+b+' es ',a-b);
+}
 
 //Divide
+function divide(a,b) { 
+  showResult('la divicion entre '+a+' y '+b+' es ',a/b);
+}
 
 // abs
 function absoluto(a) { 
     showResult('el valor absoluto de  ('+a+')' +'es',Math.abs(a));
-
   }
 
 //pow
